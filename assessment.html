@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>asssessment</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<style>
+		.img_center{
+			max-width: 85%;
+
+		}
+
+		.rating{
+			height: 100px;
+			width: auto;
+			background-color: #bebebe;
+			/*float: left;*/
+			margin-right: 10px;
+			position: relative;
+		}
+		.rating span{
+			position: absolute;
+			margin: 0 auto;
+			display: block;
+			width: 100%;
+			text-align: center;
+			left: 0;
+			top: -25%;
+		}
+		.triangle-left {
+			width: 0;
+			height: 0;
+			border-top: 50px solid transparent;
+			border-right: 50px solid #bebebe;
+			border-bottom: 50px solid transparent;
+			float: left;
+			background: #fff!important;
+		}
+		.triangle-right {
+			width: 0;
+			height: 0;
+			border-top: 50px solid transparent;
+			border-left: 50px solid #bebebe;
+			border-bottom: 50px solid transparent;
+			float:left;
+			margin-left: -10px;
+			background: #fff!important;
+		}
+		.ratebox{transition: all 0.5s;}
+
+	</style>
+</head>
+<body>
+
+	<div class=" container">
+		<div class="row">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+				<img src="logo2.jpg" class="img-fluid img_center" alt="Responsive image">
+				<h3 class="text-center">please rate your satisfactionon the following attributes of our service.</h3>
+				<h3 class="text-center mb-5 mt-5">Responsiveness</h3>
+			</div>
+		</div>
+
+
+
+		<div class="row ">
+			<div class="triangle-left"></div>
+			<div data-value="1" data-color="red" data-rate="type1" class="ratebox rating col-md-2"><span>Extremely bad</span></div>
+			<div data-value="2" data-color="orange" data-rate="type1" class="ratebox rating col-md-2"> <span>Bad</span> </div>
+			<div data-value="3" data-color="tomato" data-rate="type1" class="ratebox rating col-md-2"> <span>Natural</span> </div>
+			<div data-value="4" data-color="khaki" data-rate="type1" class="ratebox rating col-md-2"> <span>Good</span> </div>
+			<div data-value="5" data-color="green" data-rate="type1" class="ratebox rating col-md-2"> <span>Extremely good</span> </div>
+			<div class="triangle-right"></div>
+		</div>
+
+
+
+
+		<h3 class="text-center mb-5 mt-5">Competency in adivicing right solutions</h3>
+		<div class="row">
+			<div class="triangle-left"></div>
+			<div data-value="1" data-color="red" data-rate="type2" class="ratebox rating col-md-2"> <span>Extremely bad</span></div>
+			<div data-value="2" data-color="orange" data-rate="type2" class="ratebox rating col-md-2"> <span>Bad</span> </div>
+			<div data-value="3" data-color="tomato" data-rate="type2" class="ratebox rating col-md-2"> <span>Natural</span> </div>
+			<div data-value="4" data-color="khaki" data-rate="type2" class="ratebox rating col-md-2"> <span>Good</span></div>
+			<div data-value="5" data-color="green" data-rate="type2" class="ratebox rating col-md-2"> <span>Extremely good</span></div>
+			<div class="triangle-right"></div>
+		</div>
+
+
+
+
+		<h3 class="text-center mt-5 mb-5">Trustworthiness</h3>
+		<div class="row">
+			<div class="triangle-left"></div>
+			<div data-value="1" data-color="red" data-rate="type3" class="ratebox rating col-md-2"><span>Extremely bad</span></div>
+			<div data-value="2" data-color="orange" data-rate="type3" class="ratebox rating col-md-2"><span>Bad</span></div>
+			<div data-value="3" data-color="tomato" data-rate="type3" class="ratebox rating col-md-2"><span>Natural</span> </div>
+			<div data-value="4" data-color="khaki" data-rate="type3" class="ratebox rating col-md-2"><span>Good</span></div>
+			<div data-value="5" data-color="green" data-rate="type3" class="ratebox rating col-md-2"><span>Extremely good</span></div>
+			<div class="triangle-right"></div>
+		</div>
+
+
+
+
+		<h3 class="text-center mt-5 mb-5">Customer service and support</h3>
+		<div class="row  mb-5">
+			<div class="triangle-left"></div>
+			<div data-value="1" data-color="red" data-rate="type4" class="ratebox rating col-md-2"><span>Extremely bad</span></div>
+			<div data-value="2" data-color="orange" data-rate="type4" class="ratebox rating col-md-2"><span>Bad</span></div>
+			<div data-value="3" data-color="tomato" data-rate="type4" class="ratebox rating col-md-2"><span>Natural</span> </div>
+			<div data-value="4" data-color="khaki" data-rate="type4" class="ratebox rating col-md-2"><span>Good</span></div>
+			<div data-value="5" data-color="green" data-rate="type4" class="ratebox rating col-md-2"><span>Extremely good</span></div>
+			<div class="triangle-right"></div>
+		</div>
+
+
+	</div>
+
+
+
+</div>
+<hr>
+<div class="container">
+	<div class="row">
+		<div class="col-12">
+			<button type="button" class="btn btn-primary btn-lg btn-inline pr-3 pl-3 mb-5" style="margin-left:370px; width: 30%;" >Next</button>
+
+
+		</div>
+	</div>
+</div>
+
+</div>
+
+
+<script type="text/javascript">
+	
+	$(".ratebox").hover(function() {
+		/* Stuff to do when the mouse enters the element */
+		console.log($(this).data('rate')+" : "+$(this).data('value'));
+		var color = $(this).data('color');
+
+		if ($(this).data('value') == 5) {
+			$(this).siblings('.triangle-right').css("border-left-color",color);
+		} else {
+			$(this).siblings('.triangle-right').css("border-left-color","#bebebe");
+		}
+		$(this).siblings('.triangle-left').css("border-right-color",color);
+		$(this).prevAll().addBack().css("background-color", color);
+		$(this).nextAll().css('background-color', '#bebebe');
+	}, function() {
+		/* Stuff to do when the mouse leaves the element */
+
+	});
+
+</script>
+
+
+</body>
+</html>
